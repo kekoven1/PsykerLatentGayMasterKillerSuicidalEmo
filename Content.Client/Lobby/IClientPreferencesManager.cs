@@ -1,6 +1,8 @@
-using Content.Shared.Construction.Prototypes;
+using Content.Shared._White.CustomGhostSystem;
+using Content.Shared.Ghost;
 using Content.Shared.Preferences;
 using Robust.Shared.Prototypes;
+using System;
 
 namespace Content.Client.Lobby
 {
@@ -19,6 +21,6 @@ namespace Content.Client.Lobby
         void CreateCharacter(ICharacterProfile profile);
         void DeleteCharacter(ICharacterProfile profile);
         void DeleteCharacter(int slot);
-        void UpdateConstructionFavorites(List<ProtoId<ConstructionPrototype>> favorites);
+        void SetCustomGhost(ProtoId<CustomGhostPrototype> ghostProto); // WWDP EDIT
     }
 }
