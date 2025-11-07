@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2025 RedFoxIV <38788538+RedFoxIV@users.noreply.github.com>
+//
+// SPDX-License-Identifier: AGPL-3.0-or-later
+
 using Content.Client._White.CustomGhosts.UI;
 using Content.Client._White.UserInterface;
 using Robust.Client.UserInterface.Controls;

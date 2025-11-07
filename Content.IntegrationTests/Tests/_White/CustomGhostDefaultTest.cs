@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2025 RedFoxIV <38788538+RedFoxIV@users.noreply.github.com>
+//
+// SPDX-License-Identifier: AGPL-3.0-or-later
+
 using System.Numerics;
 using Content.Server.DeviceNetwork;
 using Content.Server.DeviceNetwork.Components;

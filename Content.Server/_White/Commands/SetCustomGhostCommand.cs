@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2025 RedFoxIV <38788538+RedFoxIV@users.noreply.github.com>
+//
+// SPDX-License-Identifier: AGPL-3.0-or-later
+
 using Content.Server.Database;
 using Content.Server.Players.PlayTimeTracking;
 using Content.Server.Preferences.Managers;
