@@ -15,10 +15,17 @@
 // SPDX-FileCopyrightText: 2024 Kara <lunarautomaton6@gmail.com>
 // SPDX-FileCopyrightText: 2024 Pieter-Jan Briers <pieterjan.briers+git@gmail.com>
 // SPDX-FileCopyrightText: 2024 Piras314 <p1r4s@proton.me>
-// SPDX-FileCopyrightText: 2024 drakewill-CRL <46307022+drakewill-CRL@users.noreply.github.com>
 // SPDX-FileCopyrightText: 2025 Aiden <28298836+Aidenkrz@users.noreply.github.com>
 // SPDX-FileCopyrightText: 2025 Ignaz "Ian" Kraft <ignaz.k@live.de>
+// SPDX-FileCopyrightText: 2025 LuciferMkshelter <154002422+LuciferEOS@users.noreply.github.com>
+// SPDX-FileCopyrightText: 2025 SX-7 <sn1.test.preria.2002@gmail.com>
 // SPDX-FileCopyrightText: 2025 SX_7 <sn1.test.preria.2002@gmail.com>
+// SPDX-FileCopyrightText: 2025 SlamBamActionman <83650252+SlamBamActionman@users.noreply.github.com>
+// SPDX-FileCopyrightText: 2025 SpaceManiac <tad@platymuus.com>
+// SPDX-FileCopyrightText: 2025 Svarshik <96281939+lexaSvarshik@users.noreply.github.com>
+// SPDX-FileCopyrightText: 2025 Tim <timfalken@hotmail.com>
+// SPDX-FileCopyrightText: 2025 drakewill-CRL <46307022+drakewill-CRL@users.noreply.github.com>
+// SPDX-FileCopyrightText: 2025 nazrin <tikufaev@outlook.com>
 //
 // SPDX-License-Identifier: AGPL-3.0-or-later
 
