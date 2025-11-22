@@ -18183,7 +18183,6 @@ Entries:
   changes:
     - type: Tweak
       message: >-
->>>>>>> 3f8b0c5efdd77b575dc22a1d83b3d664a21d7f7a
         Ash stroms are now more rare and give more time to prepare for shaft
         miners on Lavaland.
   id: 2049
