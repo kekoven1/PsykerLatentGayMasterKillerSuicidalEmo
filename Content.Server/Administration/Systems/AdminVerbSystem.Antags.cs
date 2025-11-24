@@ -83,6 +83,7 @@
 
 using Content.Server._Goobstation.Wizard.Components;
 using Content.Server._DV.CosmicCult.Components; // DeltaV
+using Content.Server._Harmony.GameTicking.Rules.Components;
 using Content.Server.Antag;
 using Content.Server.GameTicking;
 using Content.Server.GameTicking.Rules.Components;
@@ -116,8 +117,6 @@ public sealed partial class AdminVerbSystem
     private static readonly EntProtoId ParadoxCloneRuleId = "ParadoxCloneSpawn";
     private static readonly EntProtoId DefaultConspiratorRule = "Conspirators"; // Harmony
     private static readonly ProtoId<StartingGearPrototype> PirateGearId = "PirateGear";
-
-    private static readonly EntProtoId ParadoxCloneRuleId = "ParadoxCloneSpawn";
 
     // All antag verbs have names so invokeverb works.
     private void AddAntagVerbs(GetVerbsEvent<Verb> args)
