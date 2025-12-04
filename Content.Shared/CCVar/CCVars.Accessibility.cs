@@ -68,6 +68,13 @@ public sealed partial class CCVars
         CVarDef.Create("accessibility.speech_bubble_background_opacity", 0.75f, CVar.CLIENTONLY | CVar.ARCHIVE);
 
     /// <summary>
+    /// If enabled, censors character nudity by forcing clothes markings on characters, selected by the server.
+    /// Both this and AccessibilityClientCensorNudity must be false to display nudity on the client.
+    /// </summary>
+    public static readonly CVarDef<bool> AccessibilityServerCensorNudity =
+            CVarDef.Create("accessibility.server_censor_nudity", false, CVar.ARCHIVE | CVar.REPLICATED | CVar.SERVER);
+
+    /// <summary>
     ///     Ganimed - Transliteration of latin (english) characters into cyrilic when saying a chat message. Example: sh->ш
     /// </summary>
     public static readonly CVarDef<bool> TransliterationEnToRu =
