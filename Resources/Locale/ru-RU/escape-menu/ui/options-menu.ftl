@@ -367,6 +367,6 @@ ui-options-speech-bubble-speaker-opacity = Непрозрачность дикт
 ui-options-speech-bubble-background-opacity = Непрозрачность фона речевого пузыря
 ui-options-censor-nudity = Цензура обнажённых персонажей
 
-## Ganimed - TranslitSystem
-ui-options-toggle-translit-en-to-ru = (Чат) Транслитерирует ваш ввод в латинском алфавите в кириллицу
+## ganimed->reserve port - TranslitSystem
+ui-options-toggle-translit-en-to-ru = (Чат) Транслитерирует ваш ввод в латинском алфавите на кириллицу
 ui-options-toggle-translit-ru-to-en = (Чат) Транслитерирует все в окне чата с кириллицы на латиницу
