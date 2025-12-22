@@ -18,7 +18,7 @@ public sealed partial class LightingOverlayComponent : Component
     public bool? Enabled;
 
     [DataField]
-    public SpriteSpecifier Sprite = new Texture(new ResPath("_Europa/Effects/LightMasks/lightmask_lamp.png"));
+    public SpriteSpecifier Sprite = new Texture(new ResPath("_Orion/Effects/LightMasks/lightmask_lamp.png"));
 
     [DataField]
     public float OffsetX = -0.5f;
