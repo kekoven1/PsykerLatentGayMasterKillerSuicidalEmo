@@ -1,4 +1,8 @@
-﻿using Content.Goobstation.Shared.Disease.Components;
+// SPDX-FileCopyrightText: 2026 Goob Station Contributors
+//
+// SPDX-License-Identifier: AGPL-3.0-or-later
+
+using Content.Goobstation.Shared.Disease.Components;
 using Content.Goobstation.Shared.Disease.Systems;
 using Content.Goobstation.Shared.Virology;
 using Content.Shared.Examine;

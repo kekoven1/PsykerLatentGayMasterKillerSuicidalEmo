@@ -1,4 +1,8 @@
-﻿namespace Content.Goobstation.Server.Antag.MaintsSpawn;
+// SPDX-FileCopyrightText: 2026 Goob Station Contributors
+//
+// SPDX-License-Identifier: AGPL-3.0-or-later
+
+namespace Content.Goobstation.Server.Antag.MaintsSpawn;
 
 /// <summary>
 /// This is used for the maint spawn gamerule

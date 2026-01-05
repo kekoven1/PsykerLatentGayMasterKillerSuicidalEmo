@@ -1,4 +1,8 @@
-﻿using Content.Goobstation.Common.Administration.Notifications;
+// SPDX-FileCopyrightText: 2026 Goob Station Contributors
+//
+// SPDX-License-Identifier: AGPL-3.0-or-later
+
+using Content.Goobstation.Common.Administration.Notifications;
 using Content.Goobstation.Shared.Administration.Notifications;
 using Content.Server.Administration.Managers;
 using Robust.Shared.Audio;

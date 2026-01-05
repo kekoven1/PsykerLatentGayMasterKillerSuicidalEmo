@@ -1,4 +1,8 @@
-﻿using Content.Shared.Rejuvenate;
+// SPDX-FileCopyrightText: 2026 Goob Station Contributors
+//
+// SPDX-License-Identifier: AGPL-3.0-or-later
+
+using Content.Shared.Rejuvenate;
 using Content.Goobstation.Shared.Disease;
 using Robust.Shared.Map;
 using Robust.Shared.Prototypes;
