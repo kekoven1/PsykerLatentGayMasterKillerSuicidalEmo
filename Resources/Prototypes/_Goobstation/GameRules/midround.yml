@@ -61,7 +61,8 @@
   - type: StationEvent
     earliestStart: 20
     weight: 4
-    minimumPlayers: 15    maxOccurrences: 1
+    minimumPlayers: 15
+    maxOccurrences: 1
     startAnnouncement: station-event-communication-interception
     startAudio:
       path: /Audio/Announcements/intercept.ogg

@@ -1,4 +1,4 @@
-﻿- type: entity
+- type: entity
   abstract: true
   parent: [ SimpleMobBase, MobCombat ]
   id: BaseMobSlimeXenobio
@@ -159,7 +159,8 @@
       state: base
       color: "#FFFFFF"
   - type: MobGrowth
-    hungerRequired: 75    currentStage: baby
+    hungerRequired: 75
+    currentStage: baby
     stages:
       baby:
         nextStage: adult
@@ -178,7 +179,8 @@
   description: It looks so much like jelly. I wonder what it tastes like?
   components:
   - type: MobGrowth
-    hungerRequired: 75    currentStage: adult
+    hungerRequired: 75
+    currentStage: adult
     stages:
       baby:
         nextStage: adult
