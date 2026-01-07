@@ -52,6 +52,8 @@ public sealed class ReverseEngineeringSystem : EntitySystem
 
         SubscribeLocalEvent<ReverseEngineeringMachineComponent, PowerChangedEvent>(OnPowerChanged);
 
+        SubscribeLocalEvent<ReverseEngineeringComponent, ExaminedEvent>(OnExamined);
+
         SubscribeLocalEvent<ReverseEngineeringMachineComponent, BeforeActivatableUIOpenEvent>((e, c, _) => UpdateUserInterface(e, c));
 
     }
@@ -204,6 +206,10 @@ public sealed class ReverseEngineeringSystem : EntitySystem
         };
     }
 
+    private void OnExamined(EntityUid uid, ReverseEngineeringComponent component, ExaminedEvent args)
+    {
+        args.PushMarkup(Loc.GetString("reverse-engineering-examine", ("diff", component.Difficulty)));
+    }
     private void FinishProbe(EntityUid uid, ReverseEngineeringMachineComponent? component = null, ActiveReverseEngineeringMachineComponent? active = null)
     {
         if (!Resolve(uid, ref component, ref active))

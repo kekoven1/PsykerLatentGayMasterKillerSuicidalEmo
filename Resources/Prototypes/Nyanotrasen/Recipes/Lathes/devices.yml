@@ -1,6 +1,8 @@
 - type: latheRecipe
   id: EncryptionKeySyndie
   result: EncryptionKeySyndie
+  categories:
+  - Parts
   completetime: 4
   materials:
      Steel: 100
@@ -10,17 +12,21 @@
 - type: latheRecipe
   id: JetpackBlue
   result: JetpackBlue
+  categories:
+  - Tools
   completetime: 10
   materials:
-    Steel: 8000
-    Plastic: 8000
-    Gold: 50
+    Steel: 2000
+    Plastic: 2000
+    Gold: 10
 
 - type: latheRecipe
   id: JetpackMini
   result: JetpackMini
+  categories:
+  - Tools
   completetime: 10
   materials:
-    Steel: 4000
-    Plastic: 4000
-    Gold: 50
+    Steel: 800
+    Plastic: 800
+    Gold: 10
